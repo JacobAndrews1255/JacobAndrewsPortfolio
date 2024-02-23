@@ -1,0 +1,133 @@
+body {
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+#logo {
+    margin: 0;
+}
+
+#site-title {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+
+#navigation {
+    margin-top: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    /* Remove bullet points from the list */
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+    /* Add some space between menu items */
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last menu item */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    /* Remove underline from the link */
+    color: lightgray;
+    /* Set link color */
+}
+
+.nav-menu a:hover {
+    color: white;
+    /* Change link color on hover */
+}
+
+.project {
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.projectdesc{
+    padding-left: 30%;
+}
+
+.project1img {
+    width: 50%;
+}
+
+.project2img {
+    width: 70%;
+}
+
+.project3img {
+    width: 200%;
+}
+
+.projectdesc a {
+    text-decoration: none;
+    /* Remove underline from the link */
+    color: black;
+    /* Set link color */
+}
+
+.projectdesc a:hover {
+    color: lightgray;
+    /* Change link color on hover */
+}
+
+.aboutme {
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    display: inline-block;
+    max-width: 100%;
+}
+
+
+.image-collage {
+    max-width: 100%;
+    position: relative;
+}
+
+.image-collage img {
+    border-radius: 50px;
+    position: absolute;
+    transition: transform 0.5s ease;
+}
+
+.img1 {
+    max-width: 120%;
+    top: 70px;
+    left: 100px;
+}
+
+.img2 {
+    max-width: 40%;
+    top: 20px;
+    left: 80px;
+}
+
+.img3 {
+    max-width: 60%;
+    top: 0px;
+    left: 500px;
+}
+
+.img4 {
+    max-width: 50%;
+    top: 370px;
+    left: 40px;
+}
